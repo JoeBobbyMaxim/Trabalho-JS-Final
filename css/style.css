@@ -1,0 +1,33 @@
+.calculator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 5px solid white;
+    padding: 10%;
+}
+
+.titulo {
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 33%;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.input {
+    width: 300px;
+    font-size: 160%;
+    background-color: white;
+}
+
+button{
+    font-size: 150%;
+    padding-left: 50px;
+    line-height: 35px;
+}
